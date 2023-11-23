@@ -104,3 +104,128 @@
   .eyes{
     margin-right: 5px;
   }
+
+
+
+  .sec-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+  }
+  
+  .sect-1-texts{
+    width: 550px;
+  }
+
+  .sect-1-texts h3{
+    color: #386a43;
+    font-weight: 600;
+    font-size: 25px;
+  }
+
+  .sect-1-texts h1{
+    color: #1f232c;
+    font-size: 35px;
+    font-weight: 900;
+    margin-top: 10px;
+  }
+
+  .sect-1-texts h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: #626262;
+    margin:  20px 0 20px 15px;
+  }
+
+  .sect-1-texts p{
+    color: #626262;
+    font-weight: lighter;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .p2{
+    color: #626262;
+    font-weight: lighter;
+    font-size: 16px;
+    margin-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .b1{
+    border-left: 3px solid green;
+    height: 60px;
+    margin-top: 15px;
+    position: absolute;
+  }
+
+  .sec-1-img{
+    display: flex;
+    margin-top: 15px;
+    gap: 20px;
+  }
+
+  .sec-1-container img{
+    width: 240px;
+    height: 170px;
+  }
+
+  .sec-1-container video{
+    width: 500px;
+    height: 290px;
+  }
+
+
+  .button {
+    line-height: 1;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: .75rem;
+    background-color: #57bd6d;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 400;
+    padding: 10px 40px;
+    margin-top: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: background-color .3s;
+  }
+  
+  .button__icon-wrapper {
+    flex-shrink: 0;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    color: black;
+    background-color: #fff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+  }
+  
+  .button:hover {
+    background-color: #000;
+  }
+  
+  .button:hover .button__icon-wrapper {
+    color: #000;
+  }
+  
+  .button__icon-svg--copy {
+    position: absolute;
+    transform: translate(-150%, 150%);
+  }
+  
+  .button:hover .button__icon-svg:first-child {
+    transition: transform .3s ease-in-out;
+    transform: translate(150%, -150%);
+  }
+  
+  .button:hover .button__icon-svg--copy {
+    transition: transform .3s ease-in-out .1s;
+    transform: translate(0);
+  }
