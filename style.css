@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.filtr{
+    height: 100vh;
+   background-color: rgba(0, 0, 0, 0.667);
+}
+
+.hdr{
+    background-image: url(./images/5634934.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.nav-sec{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 60px;
+}
+
+.nav-li{
+    display: flex;
+    color: rgb(201, 232, 228);
+    list-style: none;
+    gap: 60px;
+    font-size: 17px;
+    align-items: center;
+}
+
+.nav-icon{
+    width: 25px;
+    height: 25px;
+}
+
+         
+.icons-nav {
+    background-image: linear-gradient(to right, #0d414f 0%, #458453  51%, #166378  100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    padding: 10px 28px;  
+    gap: 3px; 
+    font-size: 15px;
+    align-items: center;
+    border-radius: 5px;
+    color: rgb(201, 204, 232);  
+    display: flex;    
+  }
+
+  .icons-nav:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+   .bnr{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 40px 0 60px;
+    align-items: center;
+   }
+
+   .bnr h1{
+    color: rgb(201, 232, 228);
+    font-size: 70px;
+    font-weight: 900;
+   }
+
+   .bnr-spa{
+    color: #57bd6d; 
+   }
+
+  .bnr-img{
+    width: 650px;
+    height: 400px;
+  }
+
+           
+  .btn {
+    background-image: linear-gradient(to right, #0d414f 0%, #458453  51%, #166378  100%);
+    margin: 35px 0 0 0;
+    padding: 10px 60px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(201, 232, 228);            
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  .btn:hover {
+    background-position: right center; /* change the direction of the change here */
+    text-decoration: none;
+  }
+ 
+  .eyes{
+    margin-right: 5px;
+  }
