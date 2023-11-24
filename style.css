@@ -238,12 +238,12 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 218vh;
+    height: 210vh;
     width: 100%;
   }
 
   .filtrs{
-    height: 218vh;
+    height: 210vh;
     background-color: rgba(0, 0, 0, 0.76);
   }
 
@@ -270,9 +270,9 @@
     display: flex;  
     width: 42%;
     height: 50px;
-    margin: 70px auto;
+    margin: 65px auto;
     justify-content: space-between;
-    background-color: rgba(0, 0, 128, 0.082);
+    background-color: rgba(0, 0, 128, 0.096);
     box-shadow: 20px 20px 50px rgba(57, 57, 57, 0.135);
     backdrop-filter: blur(4px);
     border: 1px solid rgba(253, 253, 253, 0.39);
