@@ -486,3 +486,122 @@
      width: 450px;
      height: 350px;
 }
+
+footer{
+  width: 100%;
+  height: 500px;
+  background-image: url(./feet-soccer-player-with-soccer-ball-generative-ai_74760-3398.avif);
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(214, 214, 214);
+}
+
+.ftrs{
+  background-color: rgba(0, 0, 0, 0.877);
+  height: 500px;
+}
+
+.ftr-sec{
+  display: flex;
+  padding-bottom: 40px;
+}
+
+.upper-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.upper-text h1{
+  font-size: 40px;
+  padding-left: 10px;
+}
+
+.fifa-img{
+  width: 110px;
+  height: 80px;
+}
+
+.nd-texts h2{
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 50px;
+  width: 300px;
+  text-align: center;
+  color: #9ea89f;
+}
+
+.sponsors-img{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 300px;
+  padding: 30px 0 0 10px;
+}
+
+.sponsors-img img{
+     width: 80px;
+}
+
+.third-texts{
+  text-align: center;
+  padding: 70px 0 0 130px;
+  color: #9ea89f;
+}
+
+.third-texts h1{
+  font-size: 80px;
+  font-weight: 900;
+  color: #9ea89f;
+}
+
+.third-texts h1:hover{
+  color: #29a22e;
+  transition-duration: 0.6s;
+}
+
+.third-texts p{
+  font-weight: 500;
+}
+
+.icons-ftr ul{
+  display: flex;
+  font-size: 25px;
+  gap: 30px;
+  color: #9ea89f;
+  padding: 20px 0 0 118px;
+}
+
+.contact h1{
+  font-size: 22px;
+  font-weight: 900;
+  color: #9ea89f;
+  padding-bottom: 10px;
+}
+
+.contact{
+  padding: 70px 0 0 200px;
+}
+
+.contacts-ul li{
+   color: white;
+   padding-top: 15px;
+}
+
+.contacts-ul li:hover{
+  color: #29a22e;
+}
+
+.lis{
+  padding-right: 10px;
+}
+
+.last{
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #9ea89f;
+}
