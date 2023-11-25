@@ -57,6 +57,9 @@
         margin-right: 5px;
       }
 
+
+
+
       .sec-1{
         flex-direction: column;
         margin: 100px 25px;
@@ -127,13 +130,21 @@
         margin: 70px 0 30px 0;
       }
 
+
+
       .sec-2-bg{
         display: none;
       }
 
+
+
+
     .sec-3{
       display: none;
     }
+
+
+
 
     .sec-4{
       flex-direction: column;
@@ -171,6 +182,84 @@
   width: 100%;
   height: 300px;
   margin-top: 50px;
+}
+
+
+
+
+footer{
+  width: 100%;
+  height: 585px;
+  background-image: url(./images/players/soccer-players-action-professional-stadium.jpg);
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(214, 214, 214);
+}
+
+.ftrs{
+  background-color: rgba(0, 0, 0, 0.877);
+  height: 585px;
+  width: 100%;
+}
+
+.ftr-sec{
+    flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.upper-text h1{
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.fifa-img{
+  width: 70px;
+  height: 50px;
+}
+
+.nd-texts h2{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 30px;
+  width: 100%;
+  text-align: center;
+  color: #9ea89f;
+}
+
+.sponsors-img{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  padding: 30px 0 0 50px;
+}
+
+
+.third-texts{
+  text-align: center;
+  padding: 0;
+  margin-top: 25px;
+  color: #9ea89f;
+}
+
+.third-texts h1{
+  font-size: 25px;
+  font-weight: 900;
+  color: #29a22e;
+  margin-bottom: 5px;
+}
+
+.contact{
+  display: none;
+}
+
+.last{
+  text-align: center;
+  padding-top: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #9ea89f;
+  font-size: 15px;
 }
 
 }
@@ -454,6 +543,96 @@ height: 300px;
 margin-top: 50px;
 }
 
+
+
+footer{
+  width: 100%;
+  height: 620px;
+  background-image: url(./feet-soccer-player-with-soccer-ball-generative-ai_74760-3398.avif);
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(214, 214, 214);
+}
+
+.ftrs{
+  background-color: rgba(0, 0, 0, 0.877);
+  height: 620px;
+  width: 100%;
+}
+
+.ftr-sec{
+    flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.upper-text h1{
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.fifa-img{
+  width: 70px;
+  height: 50px;
+}
+
+.nd-texts h2{
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 30px;
+  width: 100%;
+  text-align: center;
+  color: #9ea89f;
+}
+
+.sponsors-img{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 10px auto;
+}
+
+.sponsors-img img{
+  width: 100px;
+}
+
+
+.third-texts{
+  text-align: center;
+  padding: 0;
+  margin-top: 10px;
+  color: #9ea89f;
+}
+
+.third-texts h1{
+  font-size: 30px;
+  font-weight: 900;
+  color: #29a22e;
+  margin-bottom: 5px;
+}
+
+.contact{
+  display: none;
+}
+
+.icons-ftr ul{
+  display: flex;
+  font-size: 25px;
+  gap: 30px;
+  color: #9ea89f;
+  margin: 0 39%;
+  padding: 20px 0 0 0;
+  width: 50%;
+}
+
+.last{
+  text-align: center;
+  padding-top: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #9ea89f;
+  font-size: 15px;
+}
+
 }
 
 
@@ -713,6 +892,98 @@ margin-top: 50px;
          width: 300px;
          height: 250px;
     }
+
+
+
+    footer{
+      width: 100%;
+      height: 490px;
+      background-image: url(./feet-soccer-player-with-soccer-ball-generative-ai_74760-3398.avif);
+      background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: rgb(214, 214, 214);
+    }
+    
+    .ftrs{
+      background-color: rgba(0, 0, 0, 0.877);
+      height: 490px;
+      width: 100%;
+    }
+    
+    .ftr-sec{
+      display: flex;
+      padding-bottom: 30px;
+      justify-content: space-around;
+    }
+    
+    .upper-text h1{
+      font-size: 25px;
+      padding-left: 10px;
+    }
+    
+    .fifa-img{
+      width: 70px;
+      height: 50px;
+    }
+    
+    .nd-texts h2{
+      font-size: 25px;
+      font-weight: 600;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      padding-top: 30px;
+      width: 100%;
+      text-align: center;
+      color: #9ea89f;
+    }
+    
+    .sponsors-img{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin: 10px auto;
+    }
+    
+    .sponsors-img img{
+      width: 100px;
+    }
+    
+    
+    .third-texts{
+      text-align: center;
+      padding: 0;
+      margin-top: 100px;
+      color: #9ea89f;
+    }
+    
+    .third-texts h1{
+      font-size: 40px;
+      font-weight: 900;
+      color: #29a22e;
+      margin-bottom: 5px;
+    }
+    
+    .contact{
+      display: none;
+    }
+    
+    .icons-ftr ul{
+      display: flex;
+      font-size: 25px;
+      gap: 30px;
+      color: #9ea89f;
+      margin: 0 20%;
+      padding: 20px 0 0 0;
+      width: 50%;
+    }
+    
+    .last{
+      text-align: center;
+      padding-top: 20px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: #9ea89f;
+      font-size: 15px;
+    }
+
     
 }
 
@@ -941,4 +1212,96 @@ margin-top: 50px;
          width: 450px;
          height: 350px;
     }
+
+
+
+    footer{
+      width: 100%;
+      height: 490px;
+      background-image: url(./feet-soccer-player-with-soccer-ball-generative-ai_74760-3398.avif);
+      background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: rgb(214, 214, 214);
+    }
+    
+    .ftrs{
+      background-color: rgba(0, 0, 0, 0.877);
+      height: 490px;
+      width: 100%;
+    }
+    
+    .ftr-sec{
+      display: flex;
+      padding-bottom: 30px;
+      justify-content: space-around;
+    }
+    
+    .upper-text h1{
+      font-size: 25px;
+      padding-left: 10px;
+    }
+    
+    .fifa-img{
+      width: 70px;
+      height: 50px;
+    }
+    
+    .nd-texts h2{
+      font-size: 25px;
+      font-weight: 600;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      padding-top: 30px;
+      width: 100%;
+      text-align: center;
+      color: #9ea89f;
+    }
+    
+    .sponsors-img{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin: 10px auto;
+    }
+    
+    .sponsors-img img{
+      width: 100px;
+    }
+    
+    
+    .third-texts{
+      text-align: center;
+      padding: 0;
+      margin-top: 100px;
+      color: #9ea89f;
+    }
+    
+    .third-texts h1{
+      font-size: 40px;
+      font-weight: 900;
+      color: #29a22e;
+      margin-bottom: 5px;
+    }
+    
+    .contact{
+      display: none;
+    }
+    
+    .icons-ftr ul{
+      display: flex;
+      font-size: 25px;
+      gap: 30px;
+      color: #9ea89f;
+      margin: 0 20%;
+      padding: 20px 0 0 0;
+      width: 50%;
+    }
+    
+    .last{
+      text-align: center;
+      padding-top: 20px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: #9ea89f;
+      font-size: 15px;
+    }
+
 }

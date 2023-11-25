@@ -500,6 +500,7 @@ footer{
 .ftrs{
   background-color: rgba(0, 0, 0, 0.877);
   height: 500px;
+  width: 100%;
 }
 
 .ftr-sec{
@@ -522,7 +523,7 @@ footer{
 
 .fifa-img{
   width: 110px;
-  height: 80px;
+  height: 85px;
 }
 
 .nd-texts h2{
