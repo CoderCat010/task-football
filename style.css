@@ -440,3 +440,8 @@
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.sec-3-cards h1:hover{
+  color: #000;
+  padding-top: 5px;
+  transition-duration: 0.5s;
+}

@@ -131,6 +131,10 @@
         display: none;
       }
 
+    .sec-3{
+      display: none;
+    }
+
 }
 
 
@@ -369,6 +373,10 @@
     height: 65px;
 }
 
+.sec-3{
+  display: none;
+}
+
 }
 
 
@@ -583,6 +591,10 @@
         width: 60px;
         height: 70px;
     }
+
+    .sec-3{
+      display: none;
+    }
     
 }
 
@@ -768,5 +780,9 @@
     .img-3{
         width: 60px;
         height: 70px;
+    }
+
+    .sec-3{
+      display: none;
     }
 }
